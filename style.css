@@ -217,6 +217,21 @@ section>div {
 }
 
 
+footer {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #7200be;
+    width: 100%;
+    margin-top: 103px;
+}
+
+footer a {
+    color: black;
+}
+
+
 
 
 /******************* Responsive ******************************/
