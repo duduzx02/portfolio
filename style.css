@@ -143,7 +143,7 @@ section>div {
     margin-bottom: 20px;
 }
 
-.cv {
+#btn {
     display: none;
 }
 
@@ -240,11 +240,11 @@ footer a {
         display: none;
     }
 
-    .cv {
+    #btn {
         display: inline;
     }
 
-    .btn-cv {
+    #btn-cv {
         display: none;
     }
 
