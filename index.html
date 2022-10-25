@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="imagens/nave-espacial16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <title>Eduardo Lima</title>
+</head>
+
+<body>
+    <header>
+        <a id="menu-icon" href=""><img src="imagens/nave-espacial64.png" alt=""></a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portifolio">Portifólio</a></li>
+            <li><a class="btn-cv" href="#about">Donwload CV</a></li>
+        </ul>
+    </header>
+
+    <main id="home">
+
+        <section>
+
+            <div>
+                <div class="space">
+                    <div class="home-text">
+                        <span>Hello, I'm</span>
+                        <h1>Eduardo Lima</h1>
+                        <h2>Frontend Developer</h2>
+                        <!-- <p>Sou estudante de programação, faço Analise e Desenvolvimento de Sistemas, pela faculdade Descomplica.</p> -->
+                        <a href="tel:83993728544" class="btn">Contate me</a>
+                        <a class="btn cv" href="#about">Donwload CV</a>
+                        <div>
+                            <h2>Minhas redes</h2>
+                            <p>Se conecte comigo agora mesmo!</p>
+                        </div>
+                        <div class="sociais">
+                            <a target="_blank" href="https://www.instagram.com/duduzx02/">
+                                <img src="imagens/instagram (2).png" alt="Icone do instagram">
+                            </a>
+                            <a target="_blank" href="https://www.linkedin.com/in/eduardo-lima-b0a22a169/">
+                                <img src="imagens/linkedin (1).png" alt="Icone do linkedin">
+                            </a>
+                            <a target="_blank" href="https://github.com/duduzx02">
+                                <img src="imagens/github (1).png" alt="icone do github">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="imagens/eu.jpeg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div>
+                <div>
+                    <div class="portfolio">
+                        <h2>Portifólio</h2>
+                        <span>My recent work</span>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <ul class="games-list swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.twitch.tv/directory/game/Tibia">
+                                    <div>
+                                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/19619_IGDB-90x120.jpg"
+                                            alt="Imagem do jogo Tibia">
+                                        <p> lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem
+                                            ips lorem ips lorem ips lorem ips lorem ips </p>
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.twitch.tv/directory/game/Lineage%202">
+                                    <div>
+                                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/515349_IGDB-90x120.jpg"
+                                            alt="Imagem do jogo Lineage">
+                                        <p> lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem
+                                            ips lorem ips lorem ips lorem ips lorem ips </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a target="_blank" href="https://www.twitch.tv/directory/game/PUBG%3A%20BATTLEGROUNDS">
+                                    <div>
+                                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/505884-90x120.jpg"
+                                            alt="Imagem do jogo PUGB BATTLEGROUNDS">
+                                        <p> lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem
+                                            ips lorem ips lorem ips lorem ips lorem ips </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p>Passe para o lado!</p>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
