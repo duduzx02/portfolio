@@ -20,7 +20,7 @@
     --p-font: 0.941rem;
 }
 
-/* body {
+body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -33,7 +33,7 @@ body.active {
 *::selection {
     color: var(--bg-color);
     background: var(--main-color);
-} */
+}
 
 header {
     position: fixed;
@@ -93,7 +93,7 @@ section {
 
 }
 
-section > div {
+section>div {
     background-color: #2a2634;
     padding: 32px;
     padding-top: 24px;
@@ -120,7 +120,7 @@ section > div {
     font-size: 2rem;
 }
 
-.home-text  h2 {
+.home-text h2 {
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -130,7 +130,8 @@ section > div {
     font-weight: 400;
 }
 
-.btn, .btn-cv{
+.btn,
+.btn-cv {
     border: 2px solid var(--main-color);
     width: 175px;
     color: white;
@@ -142,7 +143,7 @@ section > div {
     margin-bottom: 20px;
 }
 
-.cv{
+.cv {
     display: none;
 }
 
@@ -157,40 +158,78 @@ section > div {
     gap: 250px;
 }
 
-.space > img {
+.space>img {
     width: 35%;
     border-radius: 0.5rem;
 
 }
 
-.portfolio{
+/* Portifolio */
+
+.Conteiner-portifolio {
+    overflow: auto;
+    max-height: 480px;
+}
+
+::-webkit-scrollbar {
+    background-color: #ae00ff;
+    width: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a2634;
+    border-radius: 10px;
+}
+
+
+.portfolio {
     text-align: center;
-    
+}
+
+.games-list {
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .games-list div {
     display: flex;
 
+
 }
 
-.games-list p{
-    background-color: #ae00ff;
-    margin: 22px;
+.games-list img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
 }
+
+.games-list p {
+    text-indent: 16px;
+    color: #ffffff;
+}
+
+.games-list h1{
+    color: #ae00ff;
+}
+
 
 
 
 /******************* Responsive ******************************/
 @media (max-width: 768px) {
-    .space > img{
+    .space>img {
         display: none;
     }
 
-    .cv{
-      display: inline;
+    .cv {
+        display: inline;
     }
 
-    .btn-cv{
+    .btn-cv {
         display: none;
     }
 
@@ -198,6 +237,19 @@ section > div {
         display: flex;
         flex-direction: column;
         height: 420px;
+    }
+
+    .games-list p {
+        clear: left;
+    }
+
+    .games-list {
+        text-align: center;
+    }
+
+    .games-list img{
+        margin-left: 50px;
+        margin-bottom: 15px;
     }
 
 }

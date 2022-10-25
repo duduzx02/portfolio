@@ -22,7 +22,7 @@
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#portifolio">Portifólio</a></li>
-            <li><a class="btn-cv" href="#about">Donwload CV</a></li>
+            <li><a href="curriculo/Profile (6).pdf" type="aplication/pdf" class="btn">Download CV</a></li>
         </ul>
     </header>
 
@@ -38,7 +38,7 @@
                         <h2>Frontend Developer</h2>
                         <!-- <p>Sou estudante de programação, faço Analise e Desenvolvimento de Sistemas, pela faculdade Descomplica.</p> -->
                         <a href="tel:83993728544" class="btn">Contate me</a>
-                        <a class="btn cv" href="#about">Donwload CV</a>
+                        <a href="curriculo/Profile (6).pdf" type="aplication/pdf" class="btn">Download CV</a>
                         <div>
                             <h2>Minhas redes</h2>
                             <p>Se conecte comigo agora mesmo!</p>
@@ -62,69 +62,64 @@
         </section>
 
 
-        <section>
-            <div>
+        <section id="portifolio">
+            <div class="Conteiner-portifolio">
                 <div>
                     <div class="portfolio">
                         <h2>Portifólio</h2>
                         <span>My recent work</span>
                     </div>
-                    <div class="swiper mySwiper">
-                        <ul class="games-list swiper-wrapper">
-                            <li class="swiper-slide">
-                                <a target="_blank" href="https://www.twitch.tv/directory/game/Tibia">
-                                    <div>
-                                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/19619_IGDB-90x120.jpg"
-                                            alt="Imagem do jogo Tibia">
-                                        <p> lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem
-                                            ips lorem ips lorem ips lorem ips lorem ips </p>
-                                    </div>
-                                </a>
-
-                            </li>
-                            <li class="swiper-slide">
-                                <a target="_blank" href="https://www.twitch.tv/directory/game/Lineage%202">
-                                    <div>
-                                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/515349_IGDB-90x120.jpg"
-                                            alt="Imagem do jogo Lineage">
-                                        <p> lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem
-                                            ips lorem ips lorem ips lorem ips lorem ips </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="swiper-slide">
-                                <a target="_blank" href="https://www.twitch.tv/directory/game/PUBG%3A%20BATTLEGROUNDS">
-                                    <div>
-                                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/505884-90x120.jpg"
-                                            alt="Imagem do jogo PUGB BATTLEGROUNDS">
-                                        <p> lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem ips lorem
-                                            ips lorem ips lorem ips lorem ips lorem ips </p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="games-list">
+                        <a href="https://duduzx02.github.io/NLW-eSports/">
+                            <img src="imagens/Wallpaper-1400x900.png" alt="">
+                            <h1>NLW eSports</h1>
+                            <p> Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML e CSS aprendidos na NLW eSports.</p>
+                        </a>
                     </div>
-                </div>
-                <div>
-                    <p>Passe para o lado!</p>
+                    <div class="games-list">
+                        <a href="https://duduzx02.github.io/Construindo-uma-Landing-Page-no-Mundo-Invertido-com-HTML-e-CSS/">
+                            <img src="imagens/netflix.png" alt="">
+                            <h1>Mundo Invertido - Stranger things</h1>
+                            <p> Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO.</p>
+                        </a>
+                    </div>
+                    <div class="games-list">
+                        <a href="">
+                            <img src="imagens/maths.gif" alt="">
+                            <h1>Tabuada</h1>
+                            <p> Esse é um site de tabuada que estou construindo em HTML, CSS e JavaScript.</p>
+                        </a>
+                    </div>
+                    <div class="games-list">
+                        <a href="">
+                            <img src="imagens/social-media.gif" alt="">
+                            <h1>Social Links</h1>
+                            <p>Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML e CSS aprendidos na Rocketseat.</p>
+                        </a>
+                    </div>
+                    <div class="games-list">
+                        <a href="https://explore-lab-rocketpay-delta.vercel.app/">
+                            <img src="imagens/pagamento.gif" alt="">
+                            <h1>RocketPay</h1>
+                            <p>O RocketPay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via JavaScript DOM.</p>
+                        </a>
+                    </div>
+                    <div class="games-list">
+                        <a href="https://duduzx02.github.io/Calculadora-de-gorjeta/">
+                            <img src="imagens/calculadora.gif" alt="">
+                            <h1>Calculadora de Gorjetas</h1>
+                            <p>Mini curso da OneBitCode de uma calculadora de Gorjetas.</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
 
 
 
+
     </main>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 2,
-            loop: true
-        });
-    </script>
 </body>
 
 </html>
