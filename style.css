@@ -104,7 +104,7 @@ section>div {
 .home-text {
     display: flex;
     flex-direction: column;
-    height: 380px;
+    height: 400px;
     gap: 1rem;
     justify-content: center;
     align-items: flex-start;
